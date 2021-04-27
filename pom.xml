@@ -19,7 +19,7 @@
         <docker.repository>www.yusora.top</docker.repository>
         <!--上传的Docker镜像前缀，此前缀一定要和Harbor中的项目名称一致，表示打包后的Docker镜像会上传到Harbor的哪个项目中-->
         <docker.registry.name>jenkins</docker.registry.name>
-        <docker.maven.plugin.version>1.4.13</docker.maven.plugin.version>
+        <docker.maven.plugin.version>1.4.10</docker.maven.plugin.version>
     </properties>
 
     <dependencies>
